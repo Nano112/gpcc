@@ -1,0 +1,15 @@
+[package]
+name = "gpcc"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+description = "MPEG G-PCC (ISO/IEC 23090-9) entropy coding primitives: Dirac arithmetic coder, exp-Golomb, DualLutCoder"
+license = "MIT AND BSD-3-Clause"
+repository = "https://github.com/Nano112/gpcc"
+readme = "README.md"
+keywords = ["gpcc", "point-cloud", "arithmetic-coding", "entropy", "codec"]
+categories = ["compression", "encoding"]
+exclude = ["/.github"]
+
+[dependencies]
+thiserror = "1"
